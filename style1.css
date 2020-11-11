@@ -1,0 +1,89 @@
+.container{
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.top{
+
+}
+ul{
+list-style: none;  
+}
+.menu{
+display: flex;    
+flex-direction: row; 
+margin-bottom: 0px;
+   
+}
+.menu li{
+ margin-right: 30px;  
+ display: flex;
+ align-items: flex-end; 
+}
+.menu i{
+  margin-bottom: 3px;  
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+h1{
+ margin-bottom: 0px;   
+}
+p{
+ margin-top: 0px;
+ margin-bottom: 0px;   
+}
+.search{
+    color: gray;
+    display: flex;
+    align-items: flex-end;
+}
+.grasses{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+max-width: 1024px;
+margin: 0 auto;
+}
+.grasses-img {
+    width: 100%;
+}
+.grasses-img img {
+    width: 100%;
+}
+.theme{
+    margin-top: 20px;
+    font-size: 27px;
+    width: 1024px;
+    color: gray;
+}
+.sentence{
+    margin-top: 100px;
+    
+    width: 1024px;
+    display: flex;
+    flex-direction: row;
+}
+.date{
+  white-space: nowrap;  
+display: flex;
+justify-content: start;
+color: gray; 
+       
+}
+.event{
+ font-size: 15px;
+       
+}
+h3{
+ margin-top: 0px;   
+ font-size: 25px;   
+}
